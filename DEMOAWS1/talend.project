@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_Aj4hETHDEeig8KVJH_QaDg" label="DemoAWS1" description="Demo Project on AWS" language="java" technicalLabel="DEMOAWS1" creationDate="2018-03-27T15:15:21.000+0200" author="_Aj4hEjHDEeig8KVJH_QaDg" productVersion="Talend Data Fabric-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/mhebach/demo&quot;,&quot;login&quot;:&quot;markus.hebach@quinscape.de&quot;,&quot;passwd&quot;:&quot;5dRs6OT4kD36bnk/6XHE+A==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI"/>
+  <TalendProperties:User xmi:id="_Aj4hEjHDEeig8KVJH_QaDg" login="markus.hebach@quinscape.de" firstName="Markus" lastName="Hebach" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
