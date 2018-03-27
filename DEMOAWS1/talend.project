@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_Aj4hETHDEeig8KVJH_QaDg" label="DemoAWS1" description="Demo Project on AWS" language="java" technicalLabel="DEMOAWS1" creationDate="2018-03-27T15:15:21.000+0200" author="_Aj4hEjHDEeig8KVJH_QaDg" productVersion="Talend Data Fabric-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/mhebach/demo&quot;,&quot;login&quot;:&quot;markus.hebach@quinscape.de&quot;,&quot;passwd&quot;:&quot;5dRs6OT4kD36bnk/6XHE+A==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_Aj4hETHDEeig8KVJH_QaDg" label="DemoAWS1" description="Demo Project on AWS" language="java" technicalLabel="DEMOAWS1" creationDate="2018-03-27T13:15:21.000+0000" author="_Aj4hEjHDEeig8KVJH_QaDg" productVersion="Talend Data Fabric-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/mhebach/demo&quot;,&quot;login&quot;:&quot;markus.hebach@quinscape.de&quot;,&quot;passwd&quot;:&quot;5dRs6OT4kD36bnk/6XHE+A==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_Ar-GEDHDEeig8KVJH_QaDg" label="development" code="DEV"/>
     <technicalStatus xmi:id="_Ar-GETHDEeig8KVJH_QaDg" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_Ar-GEjHDEeig8KVJH_QaDg" label="production" code="PROD"/>
@@ -178,7 +178,6 @@
     <migrationTask xmi:id="_A_I55jHDEeig8KVJH_QaDg" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_A_I55zHDEeig8KVJH_QaDg" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_A_I56DHDEeig8KVJH_QaDg" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_A_I56THDEeig8KVJH_QaDg" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_A_I56jHDEeig8KVJH_QaDg" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_A_I56zHDEeig8KVJH_QaDg" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_A_I57DHDEeig8KVJH_QaDg" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -409,6 +408,10 @@
     <migrationTask xmi:id="_A_I6zTHDEeig8KVJH_QaDg" id="org.talend.repository.model.migration.ChangeJobsettingDBversionForMssqlMigrationTask" breaks="6.3.0" version="6.3.1" status="noimpact"/>
     <migrationTask xmi:id="_A_I6zjHDEeig8KVJH_QaDg" id="org.talend.repository.model.migration.ChangeTMatchGroupOutputConnectorTask" breaks="6.4.0" version="6.4.1" status="noimpact"/>
     <migrationTask xmi:id="_A_I6zzHDEeig8KVJH_QaDg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_J4XOEDHMEei5dqomaqZ_2A" id="org.talend.mdm.repository.core.migrate.UpdateViewObjectPathMT" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="_J4XOETHMEei5dqomaqZ_2A" id="org.talend.mdm.repository.core.migrate.UpdateProcessObjectPathMT" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="_J4XOEjHMEei5dqomaqZ_2A" id="org.talend.mdm.repository.core.migrate.RemoveRefNameMT" breaks="6.0.0" version="6.0.0" status="noimpact"/>
+    <migrationTask xmi:id="_J4XOEzHMEei5dqomaqZ_2A" id="org.talend.mdm.repository.core.migrate.UpdateOperatorMigrationTask" breaks="6.2.0" version="6.2.0" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Aj4hEjHDEeig8KVJH_QaDg" login="markus.hebach@quinscape.de" firstName="Markus" lastName="Hebach" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
