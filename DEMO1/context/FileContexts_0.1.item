@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
   <talendfile:ContextType xmi:id="_-bBcEDwTEeidDsQS0ux8Ew" confirmationNeeded="false" name="dev">
-    <contextParameter xmi:id="_-bBcETwTEeidDsQS0ux8Ew" comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" type="id_File" value="/tmp/out.csv"/>
+    <contextParameter xmi:id="_-bBcETwTEeidDsQS0ux8Ew" comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" type="id_File" value="/tmp/infile.csv"/>
+    <contextParameter xmi:id="_5oJGcDwUEeidDsQS0ux8Ew" comment="" name="outputfile" prompt="outputfile?" promptNeeded="false" type="id_File" value="/tmp/out.csv"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_-bBcEjwTEeidDsQS0ux8Ew" confirmationNeeded="false" name="local">
-    <contextParameter xmi:id="_-bBcEzwTEeidDsQS0ux8Ew" comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" type="id_File" value="C:/temp/out1.csv"/>
+    <contextParameter xmi:id="_-bBcEzwTEeidDsQS0ux8Ew" comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" type="id_File" value="C:/temp/infile1.csv"/>
+    <contextParameter xmi:id="_5oJGcTwUEeidDsQS0ux8Ew" comment="" name="outputfile" prompt="outputfile?" promptNeeded="false" type="id_File" value="C:/temp/outfile1.csv"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_-bBcFDwTEeidDsQS0ux8Ew" confirmationNeeded="false" name="prod">
-    <contextParameter xmi:id="_-bBcFTwTEeidDsQS0ux8Ew" comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" type="id_File" value="/tmp/out.csv"/>
+    <contextParameter xmi:id="_-bBcFTwTEeidDsQS0ux8Ew" comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" type="id_File" value="/tmp/infile.csv"/>
+    <contextParameter xmi:id="_5oJGcjwUEeidDsQS0ux8Ew" comment="" name="outputfile" prompt="outputfile?" promptNeeded="false" type="id_File" value="/tmp/out.csv"/>
   </talendfile:ContextType>
 </xmi:XMI>
