@@ -4,6 +4,18 @@
     <contextParameter comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="C:/temp/infile1.csv"/>
     <contextParameter comment="" name="outputfile" prompt="outputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="C:/temp/outfile1.csv"/>
   </context>
+  <context confirmationNeeded="false" name="prod">
+    <contextParameter comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="/tmp/infile.csv"/>
+    <contextParameter comment="" name="outputfile" prompt="outputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="/tmp/out.csv"/>
+  </context>
+  <context confirmationNeeded="false" name="dev">
+    <contextParameter comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="/tmp/infile.csv"/>
+    <contextParameter comment="" name="outputfile" prompt="outputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="/tmp/out.csv"/>
+  </context>
+  <context confirmationNeeded="false" name="local">
+    <contextParameter comment="" name="inputfile" prompt="inputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="C:/temp/infile1.csv"/>
+    <contextParameter comment="" name="outputfile" prompt="outputfile?" promptNeeded="false" repositoryContextId="_-a2c8DwTEeidDsQS0ux8Ew" type="id_File" value="C:/temp/outfile1.csv"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
